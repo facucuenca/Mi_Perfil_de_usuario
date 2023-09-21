@@ -5,17 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil de Facundo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="styles.css/styles.css">   
 </head>
 <body>
+    <div class="row" id="encabezado">
+        <div class="text-center col-sm-4 col-md-4 col-lg-4"></div>
+        <div class="conteiner">
+            <div class="logo">
+             <img src="assets\APLogo.png" id="logoap";>
+            </div>
+              <div class="redes">
+                <a href=""> <img src="assets\facebook.png" class="img2"></a>
+                <a href=""> <img src="assets\github.png" class="img2"></a>
+                <a href=""> <img src="assets\instagram.png" class="img2"></a>
+                <a href=""> <img src="assets\twitter.png" class="img2"></a>
+                <button type="button" class="btn btn-outline-light"(click)="login()"><a href="login/login.html">INGRESO</a></button>
+                
+              </div>     
+        </div>
     <div class="container mt-5">
         <div class="row">
           <!-- Lado izquierdo: Imagen y Datos Personales -->
           <div class="col-md-4">
             <div class="text-center">
-              <img src="140.jpg" class="rounded-circle" alt="Imagen de perfil">
+              <img src="assets/fotodeperfil.jpg" class="rounded-circle" alt="Imagen de perfil">
             </div>
             <h2 class="text-center mt-3">Nombre Apellido</h2>
+            <h3>FERNANDO FACUNDO CUENCA ALEGRE</h3>
             <hr>
             <h4>Datos Personales</h4>
             <ul class="list-group list-group-flush">
