@@ -33,7 +33,7 @@ a{
     background-color: blue;
 }
 /*para la vista de celular*/
-@media(max-width:575px){
+@media(max-width:766px){
     .conteiner{
         flex-direction: column;
     }
@@ -56,4 +56,13 @@ h2{
 }
 h3{
     text-align: center;
+}
+footer{
+    background-color: aquamarine;
+    color: red;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 2px -2px spx #a1b5cb;
 }
